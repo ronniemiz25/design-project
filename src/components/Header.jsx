@@ -115,8 +115,8 @@ const Header = () => {
             <header className={`navbar navbar-expand-lg sticky-top px-sm-5 py-1 ${isScrolled ? 'scroll-navbar' : ''}`}>
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">
-                        <img src="src/assets/logo-main.webp" alt="" className={`${contrast === false ? 'd-block' : 'd-none'}`} />
-                        <img src="src/assets/logo-white.webp" alt="" className={`nextlogo ${contrast === true ? 'd-block' : ''}`} />
+                        <img src="public/images/logo-main.webp" alt="" className={`${contrast === false ? 'd-block' : 'd-none'}`} />
+                        <img src="public/images/logo-white.webp" alt="" className={`nextlogo ${contrast === true ? 'd-block' : ''}`} />
                     </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -134,14 +134,14 @@ const Header = () => {
                             )}
                             {isAuthenticated ? (
                                 <li>
-                                    <button className={`btn btn-outline-dark px-3 ${contrast === true ? 'btn-outline-light' : ''} rounded-1`}
+                                    <button className={`btn btn-outline-dark ms-sm-3 px-3 ${contrast === true ? 'btn-outline-light' : ''} rounded-1`}
                                         onClick={() => logout({ returnTo: window.location.origin })}>
                                         Log Out
                                     </button>
                                 </li>
                             ) : (
                                 <li>
-                                    <button className={`btn btn-outline-dark px-3 rounded-1 ${contrast === true ? 'btn-outline-light' : ''}`} onClick={() => loginWithRedirect()}>Log In</button>
+                                    <button className={`btn btn-outline-dark ms-sm-3 px-3 rounded-1 ${contrast === true ? 'btn-outline-light' : ''}`} onClick={() => loginWithRedirect()}>Log In</button>
                                 </li>
                             )}
                         </div>
