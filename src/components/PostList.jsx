@@ -5,7 +5,7 @@ const postList = () => {
 
     const postdetails = [
         {
-            img: 'hpostpic-1.webp',
+            img: '/images/postpic-1.webp',
             title: 'Always Remember Your Goals!',
             content: 'In the heart of a bustling city, where innovation meets opportunity, the story of our digital agency...',
             date: 'March 6, 2025',
