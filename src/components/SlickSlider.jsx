@@ -5,13 +5,13 @@ import SlickPost from './SlickPost';
 
 const slickDatas = [
     {
-        pic: 'public/images/sliderpic-1.webp',
+        pic: '/images/sliderpic-1.webp',
         title: 'Moments in the Metaverse',
         tags: ['AI', 'AI design', 'AI tools']
 
     },
     {
-        pic: 'public/images/sliderpic-2.webp',
+        pic: '/images/sliderpic-2.webp',
         title: 'Symbiosis Ai in the wild',
         tags: ['AI', 'AI design', 'AI tools']
     }

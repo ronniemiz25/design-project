@@ -5,9 +5,9 @@ const InnerBanner = () => {
     const location = useLocation()
 
     const bannerImages = {
-        '/about': 'public/images/aboutus-banner.webp',
-        '/posts': 'public/images/posts-banner.webp',
-        '/contact': 'public/images/contact-banner.webp',
+        '/about': '/images/aboutus-banner.webp',
+        '/posts': '/images/posts-banner.webp',
+        '/contact': '/images/contact-banner.webp',
     };
 
     const currentpath = location.pathname

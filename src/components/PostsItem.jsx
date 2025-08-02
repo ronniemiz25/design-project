@@ -9,7 +9,7 @@ const PostsItem = ({ item }) => {
 
             <div className="col-lg-4">
                 <div className="card h-100 border-0">
-                    <img src='public/images/postpic-2.webp' className="card-img-top" alt="..." />
+                    <img src='/images/postpic-2.webp' className="card-img-top" alt="..." />
                     <div className="card-body">
                         <h4>{item.title}</h4>
                         <p>{item.body}</p>

@@ -115,8 +115,8 @@ const Header = () => {
             <header className={`navbar navbar-expand-lg sticky-top px-sm-5 py-1 ${isScrolled ? 'scroll-navbar' : ''}`}>
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">
-                        <img src="public/images/logo-main.webp" alt="" className={`${contrast === false ? 'd-block' : 'd-none'}`} />
-                        <img src="public/images/logo-white.webp" alt="" className={`nextlogo ${contrast === true ? 'd-block' : ''}`} />
+                        <img src="/images/logo-main.webp" alt="" className={`${contrast === false ? 'd-block' : 'd-none'}`} />
+                        <img src="/images/logo-white.webp" alt="" className={`nextlogo ${contrast === true ? 'd-block' : ''}`} />
                     </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>

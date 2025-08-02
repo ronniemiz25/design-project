@@ -38,7 +38,7 @@ const Aboutpage = () => {
                         <div className="container">
                             <div className="row g-0">
                                 <div className="col-lg-6">
-                                    <img src="public/images/aboutpic-one.webp" className="img-fluid" alt="" />
+                                    <img src="/images/aboutpic-one.webp" className="img-fluid" alt="" />
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="p-4">
@@ -65,7 +65,7 @@ const Aboutpage = () => {
 
                                 </div>
                                 <div className="col-lg-6">
-                                    <img src="public/images/aboutpic-two.webp" className="img-fluid" alt="" />
+                                    <img src="/images/aboutpic-two.webp" className="img-fluid" alt="" />
                                 </div>
 
                             </div>
@@ -79,21 +79,21 @@ const Aboutpage = () => {
                             <div className="row g-0">
                                 <div className="col-lg-4 bordcol">
                                     <div className="serv_col">
-                                        <img src="public/images/design.webp" alt="" className="img-fluid" />
+                                        <img src="/images/design.webp" alt="" className="img-fluid" />
                                         <h3>Design</h3>
                                         <p>We provide design services to enhance brand identity and help businesses engage their audience.</p>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 bordcol">
                                     <div className="serv_col">
-                                        <img src="public/images/webdev.webp" alt="" className="img-fluid" />
+                                        <img src="/images/webdev.webp" alt="" className="img-fluid" />
                                         <h3>WebDev</h3>
                                         <p>We provide web development services to enhance your brand's online presence and connect with your audience.</p>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 bordcol">
                                     <div className="serv_col">
-                                        <img src="public/images/support.webp" alt="" className="img-fluid" />
+                                        <img src="/images/support.webp" alt="" className="img-fluid" />
                                         <h3>Support</h3>
                                         <p>We provide support services to enhance brand identity and help businesses engage with their audience.</p>
                                     </div>
